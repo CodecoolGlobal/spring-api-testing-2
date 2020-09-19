@@ -33,7 +33,6 @@ public class UsersController {
         return "Hello World";
     }
 
-
     @GetMapping(value = "/{id}", produces = APPLICATION_JSON_VALUE)
     @ResponseBody
     public UserDto getUser(@PathVariable int id) {
